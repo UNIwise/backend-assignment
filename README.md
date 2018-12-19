@@ -1,6 +1,6 @@
 # UNIwise backend opgave:
 
-Opgaven går ud på at vise basal forståelse for nogle af de frameworks vi anvender hos UNIwise. Mere specifik er det to PHP frameworks: Doctrine og Symfony. 
+Opgaven går ud på at vise basal forståelse for nogle af de frameworks vi anvender hos UNIwise. Mere specifikt er det to PHP frameworks: Doctrine og Symfony. 
 
 Kort fortalt bruges Doctrine til at beskrive database entities og håndtere kommunikationen til databasen. Symfony anvendes til at opbygge API’er og services. 
 
