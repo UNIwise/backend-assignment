@@ -1,8 +1,8 @@
 # UNIwise backend opgave:
 
-Opgaven går ud på at vise basal forståelse for nogle af de frameworks vi anvender hos UNIwise. Mere specifik er det de to frameworks: Doctrine og Symfony. 
+Opgaven går ud på at vise basal forståelse for nogle af de frameworks vi anvender hos UNIwise. Mere specifik er det to PHP frameworks: Doctrine og Symfony. 
 
-Kort fortalt bruges Doctrine til at beskrive databasen entities og håndtere kommunikationen til databasen. Symfony anvendes til at opbygge API’er og services. 
+Kort fortalt bruges Doctrine til at beskrive database entities og håndtere kommunikationen til databasen. Symfony anvendes til at opbygge API’er og services. 
 
 For at løse opgaven skal følgende være installeret på computeren: 
 ```
@@ -48,7 +48,7 @@ sudo apt-get install -y make
 ```
 
 ## Opsætning: 
-1. Hent projekt fra git (git clone https://github.com/UNIwise/backend-assignment.git)
+1. Hent projektet fra git (git clone https://github.com/UNIwise/backend-assignment.git)
 2. Gå ind i src mappen og kør: make build
 3. Kør: make run
 4. Åben [http://localhost/car](http://localhost/car) det er her opgaven begynder :)
@@ -59,8 +59,8 @@ Opgaven går ud på at lave REST endpoints til at arbejde med biler.
 Bilerne skal have mærke, model, farve, benzin-niveau og en liste af ekstra udstyr.
 
 Der skal være endpoints til at liste alle bilerne fra databasen.
-Lave en filtreret visning af bilerne, det kunne fx være en filtrering på givet equipment eller lign.
-samt det skal være muligt at tilføje og fjerne ekstra udstyr fra bilerne.
+Lave en filtreret visning af bilerne. Det kunne fx være en filtrering på et givet equipment eller lignende 
+samt muligheden for at tilføje og fjerne ekstra udstyr fra bilerne.
 
 Enpoints skal returnere json og skal kunne testes via fx. postman. Det er ikke nødvendigt at lave en ui til opgaven da fokus er på backenden.
 
@@ -71,7 +71,7 @@ Der kan læses om mapping på:
 https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/association-mapping.html#many-to-many-unidirectional
 
 Når entities er oprettet, skal følgende kommando køres for at tabellerene oprettes/opdateres i databasen:
-1) Make run (sørger for at tilføje de nye tabeller i databasen.
+1) Make run (sørger for at tilføje de nye tabeller i databasen).
 
 ## Ekstra hygge opgave ;)
 Skriv nogle kommentarer ned til hvad du synes om opgaven
