@@ -2,7 +2,7 @@
   "require": {
     "doctrine/orm": "2.6.3",
     "gedmo/doctrine-extensions": "2.4.31",
-    "symfony/symfony": "4.3.*",
+    "symfony/symfony": "4.4.*",
     "doctrine/annotations": "1.6.*",
     "doctrine/doctrine-bundle": "1.10.*",
     "friendsofsymfony/rest-bundle": "2.3.*",
