@@ -1,7 +1,7 @@
 # Assignment
 
 The assignment is intended to assist us in assessing your abilities to design solid architectures and write the code to support these.
-The assignment should open up for discssuions in varous topics like testing, scalability, performance, maintainability, extendability etc..
+The assignment should open up for discussions in varous topics like testing, scalability, performance, maintainability, extendability etc..
 
 
 The aim of the assigment is to make some REST endpoints to work with cars.
@@ -16,9 +16,9 @@ The endpoint should return JSON. It's not the aim of the assignment to make any 
 
 There's a mysql database in the docker instance that is reachable on localhost:3306 with user: wiseflow and password: test.
 
-The intention is to use doctrine to describe entities in the database.
+The intention is to use Doctrine to describe entities in the database.
 
-However, the important focus is not necessarily on the frameworks, but on. For the record two of the PHP frameworks we currently use are: Doctrine og Symfony. 
+However, the important focus is not necessarily on the frameworks, but on your ability to design and write code. For good measure two of our main PHP frameworks we currently use are Doctrine and Symfony, but using these frameworks is not a requirement.
 
 
 
