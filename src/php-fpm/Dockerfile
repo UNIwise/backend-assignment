@@ -1,4 +1,4 @@
-FROM php:7.3-fpm
+FROM 097788601444.dkr.ecr.eu-west-1.amazonaws.com/proxy/library/php:7.3-fpm
 RUN apt-get update && docker-php-ext-install -j$(nproc) pdo pdo_mysql
 RUN apt-get update && apt-get install -y \
     openssl \
